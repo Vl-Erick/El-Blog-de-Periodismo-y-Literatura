@@ -1,0 +1,4 @@
+.hero h1 .w{display:inline-block;opacity:0;transform:translateY(40px);animation:up .9s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i)*90ms)}
+@keyframes up{to{opacity:1;transform:none}}
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hero h1 .w,.reveal{opacity:1;transform:none}}
